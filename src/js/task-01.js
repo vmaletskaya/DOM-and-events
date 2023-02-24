@@ -9,7 +9,6 @@ categories.forEach(category => {
   
   const categoryItems = category.querySelectorAll('li');
   
-         console.log(`Category: ${categoryTitle.textContent} 
-         Elements: ${categoryItems.length}`);
+  console.log(`Category: ${categoryTitle.textContent}  Elements: ${categoryItems.length}`);
 });
 
